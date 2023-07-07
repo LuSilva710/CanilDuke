@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canil Duke</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="./assets/logo500x500(black).png" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="#home">Inicío</a>
+            <a href="#about">Sobre</a>
+            <a href="#catalog">Filhotes</a>
+            <a href="#squad">Plantel</a>
+            <a href="#review">Feedbacks</a>
+            <a href="#contact">Contato</a>
+            <a href="#blog">Blog</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="buscar...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="./assets/filhote4.jpg" alt="Filhote de Husky Siberiano" width="35%">
+                <div class="content">
+                    <h3>Opção de reserva 1</h3>
+                    <div class="reserve">Data: 01/08/2023</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="./assets/filhote5.jpg" alt="Filhote de Husky Siberiano" width="35%">
+                <div class="content">
+                    <h3>Opção de reserva 2</h3>
+                    <div class="reserve">Data: 01/08/2023</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="./assets/filhote6.jpg" alt="Filhote de Husky Siberiano" width="35%">
+                <div class="content">
+                    <h3>Opção de reserva 3</h3>
+                    <div class="reserve">Data: 01/08/2023</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="./assets/filhote7.jpg" alt="Filhote de Husky Siberiano" width="35%">
+                <div class="content">
+                    <h3>Opção de reserva 4</h3>
+                    <div class="reserve">Data: 01/08/2023</div>
+                </div>
+            </div>
+            <a href="#contact" class="btn">Reservar agora</a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Conheça a energia dos Huskys</h3>
+            <p>AMIGÁVEL • GENTIL • INTELIGENTE • RESISTENTE</p>
+            <a href="#catalog" class="btn">Veja mais</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading">Sobre <span>o Canil Duke</span></h1>
+        <div class="row">
+
+            <div class="image">
+                <img src="./assets/bananalfarm.jpg" alt="Fazenda Bananal em Itaverava - MG" width="10%">
+            </div>
+            <div class="content">
+                <h3>Bem-vindo ao Canil Duke,</h3>
+                <p> Localizado na cidade de Itaverava - MG (130km de Belo
+                    Horizonte). Com sede na centenária Fazenda Bananal, nossa matilha de Huskys vive em meio à
+                    exuberante Mata Atlântica,
+                    cercados pela natureza e pelos mais diversos animais.</p>
+
+                <p>No Canil Duke, dedicamos nossos esforços à criação responsável desses magníficos cães.
+                    Nossa estrutura inclui estalagens cuidadosamente projetadas para abrigar cerca de
+                    100 cães, garantindo conforto e bem-estar a cada um deles.
+                    Além disso, contamos com berçários especialmente equipados para atender
+                    às necessidades dos filhotes e das cadelas prenhas,
+                    garantindo que todos recebam os cuidados adequados desde o início da gestação.
+                </p>
+                <p>Trabalhamos em parceria com veterinários especializados,
+                    garantindo que todos os nossos cães estejam em excelente condição de saúde e recebam todos os cuidados necessários.
+                </p>
+                <p>
+                    Priorizamos a socialização e o desenvolvimento
+                    adequado de nossos cães, que são criados em um ambiente familiar,
+                    onde recebem amor, atenção e interação constante com pessoas e outros animais.
+                    Isso contribui para o
+                    desenvolvimento de cães equilibrados, sociáveis e afetuosos.</p>
+
+                <p>
+                    Estamos empenhados em encontrar lares amorosos para nossos filhotes.
+                    Se você está em busca de um Husky Siberiano para se tornar parte da sua família,
+                    teremos o prazer de ajudá-lo a encontrar o companheiro perfeito.
+                </p>
+                <a href="#contact" class="btn">Agende uma visita!</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="catalog" id="catalog">
+        <h1 class="heading">Nossos <span>filhotes</span></h1>
+
+        <div class="swiper-container puppy-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="box">
+                        <img src="./assets/filhote1.jpg" alt="Filhote de Husky Siberiano">
+                        <h3>Ninhada de Duke e Pandora:</h3>
+                        <div class="reserve">Disponibilidade: <span>Agosto/2023</span></div>
+                        <div class="reserve">Fêmeas disponíveis: <span>1</span></div>
+                        <div class="reserve">Machos disponíveis: <span>3</span></div>
+                        <div class="reserve">Vacinados: <span>Sim</span></div>
+                        <div class="reserve">Vermifugados: <span>Sim</span></div>
+                        <div class="reserve">Registro de Pedigree: <span>Sim</span></div>
+                        <a href="#contact" class="btn">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="box">
+                        <img src="./assets/filhote3.jpg" alt="Filhote de Husky Siberiano">
+                        <h3>Ninhada de Duke e Pandora:</h3>
+                        <div class="reserve">Disponibilidade: <span>Agosto/2023</span></div>
+                        <div class="reserve">Fêmeas disponíveis: <span>0</span></div>
+                        <div class="reserve">Machos disponíveis: <span>1</span></div>
+                        <div class="reserve">Vacinados: <span>Sim</span></div>
+                        <div class="reserve">Vermifugados: <span>Sim</span></div>
+                        <div class="reserve">Registro de Pedigree: <span>Sim</span></div>
+                        <a href="#contact" class="btn">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="box">
+                        <img src="./assets/filhote4.jpg" alt="Filhote de Husky Siberiano">
+                        <h3>Ninhada de Duke e Bella:</h3>
+                        <div class="reserve">Disponibilidade: <span>Agosto/2023</span></div>
+                        <div class="reserve">Fêmeas disponíveis: <span>0</span></div>
+                        <div class="reserve">Machos disponíveis: <span>1</span></div>
+                        <div class="reserve">Vacinados: <span>Sim</span></div>
+                        <div class="reserve">Vermifugados: <span>Sim</span></div>
+                        <div class="reserve">Registro de Pedigree: <span>Sim</span></div>
+                        <a href="#contact" class="btn">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="box">
+                        <img src="./assets/filhote6.jpg" alt="Filhote de Husky Siberiano">
+                        <h3>Ninhada de Duke e Bella:</h3>
+                        <div class="reserve">Disponibilidade: <span>Agosto/2023</span></div>
+                        <div class="reserve">Fêmeas disponíveis: <span>0</span></div>
+                        <div class="reserve">Machos disponíveis: <span>1</span></div>
+                        <div class="reserve">Vacinados: <span>Sim</span></div>
+                        <div class="reserve">Vermifugados: <span>Sim</span></div>
+                        <div class="reserve">Registro de Pedigree: <span>Sim</span></div>
+                        <a href="#contact" class="btn">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="box">
+                        <img src="./assets/filhote7.jpg" alt="Filhote de Husky Siberiano">
+                        <h3>Ninhada de Duke e Bella:</h3>
+                        <div class="reserve">Disponibilidade: <span>Agosto/2023</span></div>
+                        <div class="reserve">Fêmeas disponíveis: <span>1</span></div>
+                        <div class="reserve">Machos disponíveis: <span>0</span></div>
+                        <div class="reserve">Vacinados: <span>Sim</span></div>
+                        <div class="reserve">Vermifugados: <span>Sim</span></div>
+                        <div class="reserve">Registro de Pedigree: <span>Sim</span></div>
+                        <a href="#contact" class="btn">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="box">
+                        <img src="./assets/filhote9.jpg" alt="Filhote de Husky Siberiano">
+                        <h3>Ninhada de Duke e Bella:</h3>
+                        <div class="reserve">Disponibilidade: <span>Agosto/2023</span></div>
+                        <div class="reserve">Fêmeas disponíveis: <span>0</span></div>
+                        <div class="reserve">Machos disponíveis: <span>2</span></div>
+                        <div class="reserve">Vacinados: <span>Sim</span></div>
+                        <div class="reserve">Vermifugados: <span>Sim</span></div>
+                        <div class="reserve">Registro de Pedigree: <span>Sim</span></div>
+                        <a href="#contact" class="btn">Reservar</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="squad" id="squad">
+        <h1 class="heading">Nossas <span>Matrizes</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/background1.jpg" alt="Fêmea de Husky Siberiano">
+                </div>
+                <div class="content">
+                    <h3>Fêmea 1</h3>
+                </div>
+                <div class="icons">
+                    <a class="fas fa-heart">
+                        <p>Peso: 23kg</p>
+                    </a>
+                    <a class="fas fa-heart">
+                        <p> Altura: 55cm</p>
+                    </a>
+                    <a class="fas fa-heart">
+                        <p> Idade: </p>
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/background2.jpg" alt="Fêmea de Husky Siberiano">
+                </div>
+                <div class="content">
+                    <h3>Fêmea 2</h3>
+                </div>
+                <div class="icons">
+                    <a class="fas fa-heart">
+                        <p>Peso: 23kg</p>
+                    </a>
+                    <a class="fas fa-heart">
+                        <p> Altura: 55cm</p>
+                    </a>
+                    <a class="fas fa-heart">
+                        <p> Idade: </p>
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/background4.jpg" alt="Fêmea de Husky Siberiano">
+                </div>
+                <div class="content">
+                    <h3>Fêmea 3</h3>
+                </div>
+                <div class="icons">
+                    <a class="fas fa-heart">
+                        <p>Peso: 23kg</p>
+                    </a>
+                    <a class="fas fa-heart">
+                        <p> Altura: 55cm</p>
+                    </a>
+                    <a class="fas fa-heart">
+                        <p> Idade: </p>
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/background5.jpg" alt="Fêmea de Husky Siberiano">
+                </div>
+                <div class="content">
+                    <h3>Fêmea 4</h3>
+                </div>
+                <div class="icons">
+                    <a class="fas fa-heart">
+                        <p>Peso: 23kg</p>
+                    </a>
+                    <a class="fas fa-heart">
+                        <p> Altura: 55cm</p>
+                    </a>
+                    <a class="fas fa-heart">
+                        <p> Idade: </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="heading">Nossos <span>Pradreadores</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="./assets/background3.jpg" alt="Macho de Husky Siberiano">
+                </div>
+                <div class="content">
+                    <h3>Macho 1</h3>
+                </div>
+                <div class="icons">
+                    <a class="fas fa-heart">
+                        <p>Peso: 27kg</p>
+                    </a>
+                    <a class="fas fa-heart">
+                        <p> Altura: 60cm</p>
+                    </a>
+                    <a class="fas fa-heart">
+                        <p> Idade: </p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/background7.jpg" alt="Macho de Husky Siberiano">
+                </div>
+                <div class="content">
+                    <h3>Macho 2</h3>
+                </div>
+                <div class="icons">
+                    <a class="fas fa-heart">
+                        <p>Peso: 27kg</p>
+                    </a>
+                    <a class="fas fa-heart">
+                        <p> Altura: 60cm</p>
+                    </a>
+                    <a class="fas fa-heart">
+                        <p> Idade: </p>
+                    </a>
+                </div>
+            </div>
+    </section>
+
+    <section class="review" id="review">
+        <h1 class="heading">Feedback<span> dos "Papais"</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./assets/quote.png" alt="" class="quote" width="5%">
+                <p>@canilduke estamos literalmente apaixonados 😍😍❤️❤️</p>
+                <img src="./assets/feedback1.jpg" alt="cliente do Canil Duke" class="user">
+                <h3>@natallielenoliveira</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/quote.png" alt="" class="quote" width="5%">
+                <p>Meus amores 😍❤️</p><br><br>
+                <img src="./assets/feedback2.jpg" alt="cliente do Canil Duke" class="user">
+                <h3>@valdiviamagico_oficial21</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/quote.png" alt="" class="quote" width="5%">
+                <p>🐾🐺❄ Já com saudade desse ensaio mais do que perfeito!!!☃️❄</p>
+                <img src="./assets/feedback3.jpg" alt="cliente do Canil Duke" class="user">
+                <h3>@nathaliaern</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/quote.png" alt="" class="quote" width="5%">
+                <p>⛄🌞 Flocos & Mel em passeio na Neve com a @deborabohler 👏😍</p>
+                <img src="./assets/feedback4.jpg" alt="cliente do Canil Duke" class="user">
+                <h3>@deborabohler</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/quote.png" alt="" class="quote" width="5%">
+                <p> Ghost filho de Duke e Nina 🐕💕🐺 Quem quiser contratar esse galã é só falar com nossa amiga
+                    @carlavartuli 👏</p>
+                <img src="./assets/feedback5.jpg" alt="cliente do Canil Duke" class="user">
+                <h3>@carlavartuli</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/quote.png" alt="" class="quote" width="5%">
+                <p>🐾🐕😍Poko Lindos 🐶🍃Valdivinha & Cataleya 😍😍😍😘😘👏👏👏🐾🐾🐾#pokopika #pokohusky #cataleya</p>
+                <img src="./assets/feedback8.jpg" alt="cliente do Canil Duke" class="user">
+                <h3>@nathaliaern</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/quote.png" alt="" class="quote" width="5%">
+                <p>😍🌿🐶👪 Esse é nosso amigo @carlosmendds com sua Família cada dia mais completa e Feliz 👏😍👪🐺
+                    Sassuke 😻😼</p>
+                <img src="./assets/feedback7.jpg" alt="cliente do Canil Duke" class="user">
+                <h3>@carlavartuli</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/quote.png" alt="" class="quote" width="5%">
+                <p>🐾🐺👪🌿 Essa Linda é a Ayla Duke e sua Família @lluiza2 @netiinho_lopes 👏😍🍃🌳🌻 </p><br><br>
+                <img src="./assets/feedback6.jpg" alt="cliente do Canil Duke" class="user">
+                <h3>@carlavartuli</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading">Entre <span>em contato</span></h1>
+        <div class="row">
+
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14931.314629876484!2d-43.620256453476436!3d-20.676548744174447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa3e83c17170b4b%3A0x485322f216d8b23c!2sItaverava%2C%20MG%2C%2036440-000!5e0!3m2!1spt-BR!2sbr!4v1688511795539!5m2!1spt-BR!2sbr"
+                allowfullscreen="" loading="lazy"></iframe>
+
+            <form action="">
+                <h3>Agende uma visita</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="nome">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="telefone">
+                </div>
+                <input type="submit" value="Entrar em Contato" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <section class="blog" id="blog">
+        <h1 class="heading">Dia a dia no <span>Canil Duke</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/background6.jpg" alt="Exemplar de Husky Siberiano">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Nossa hospedagem</a>
+                    <span>by admin / 04 maio de 2023</span>
+                    <p>Nossa estrutura inclui estalagens cuidadosamente projetadas 
+                        para abrigar cerca de 100 cães, 
+                        garantindo conforto e bem-estar a cada um deles. 
+                        Além disso, contamos com berçários 
+                        especialmente equipados para atender às necessidades dos 
+                        filhotes e das cadelas prenhas, garantindo que todos recebam 
+                        os cuidados adequados desde o início da gestação.</p>
+                    <a href="" class="btn">Leia mais</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/background8.jpg" alt="Exemplar de Husky Siberiano">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Comportamento | Temperamento</a>
+                    <span>by admin / 04 maio de 2023</span>
+                    <p>O Husky Siberiano é um cão de trabalho de porte mediano, e possui um movimento rápido e ligeiro.
+                        Suas proporções e formas refletem equilíbrio básico de força, velocidade e resistência.
+                        O temperamento característico dos Huskys é amigável e gentil, além de ser atento e expansivo.
+                        Não demonstra as qualidades possessivas de um cão de guarda, e tão pouco é desconfiado
+                        com estranhos ou agressivo com outros cães.<!--
+                        Sua inteligência, docilidade e disposição o tornam um companheiro agradável e um cão sempre
+                        disposto
+                        ao trabalho. -->
+                    </p>
+                    <a href="" class="btn">Leia mais</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/background10.jpg" alt="Exemplar de Husky Siberiano">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Alimentação</a>
+                    <span>by admin / 04 fevereiro de 2023</span>
+                    <p>Sabemos que a qualidade dos ingredientes é fundamental para a 
+                        saúde e o bem-estar dos nossos cães. Optamos por rações que são cuidadosamente 
+                        formuladas para fornecer todos os nutrientes essenciais de que eles precisam, 
+                        sem o uso de ingredientes geneticamente modificados.
+                        As rações livres de transgênicos são produzidas com 
+                        ingredientes de alta qualidade, cultivados de forma natural, 
+                        sem a manipulação genética. Dessa forma, garantimos uma alimentação saudável
+                         e segura para nossos Huskies Siberianos, contribuindo para sua saúde, vitalidade e longevidade.</p>
+                    <a href="" class="btn">Leia mais</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/filhote10.jpg" alt="Exemplar de Husky Siberiano">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Curiosidades</a>
+                    <span>by admin / 04 janeiro de 2023</span>
+                    <p>Você sabe o que é #Heterocromia?! Um charme e diferencial dos Huskys Siberianos!!
+                        A heterocromia é uma característica ocular marcante que pode ser observada em alguns Huskies Siberianos. 
+                        Ela se manifesta pela presença de olhos de cores diferentes em um mesmo cão.
+                         Essa condição pode ser encontrada tanto em Huskies Siberianos com olhos azuis quanto em Huskies com olhos castanhos.
+                         Essa característica única é resultado de uma combinação genética e faz dos Huskies Siberianos ainda mais especiais.</p>
+                    <a href="" class="btn">Leia mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="share">
+            <a href="https://www.facebook.com/CanilDukeHuskySiberiano/" class="fab fa-facebook"></a>
+            <a href="https://www.instagram.com/canilduke/" class="fab fa-instagram"></a>
+            <a href="tel: +5531997039171" class="fab fa-whatsapp"></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">Inicío</a>
+            <a href="#about">Sobre</a>
+            <a href="#catalog">Filhotes</a>
+            <a href="#review">Feedbacks</a>
+            <a href="#contact">Contato</a>
+            <a href="#blog">Blog</a>
+        </div>
+
+        <div class="credit">created by <span>@Lu_Silva</span> | all rights reserved</div>
+
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
