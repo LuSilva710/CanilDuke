@@ -1,5 +1,5 @@
 <h1 align="center"><b>Landing Page: CanilDuke</b></h1>
-<h1 align="center"><img src="index.html"></h1>
+<h1 align="center"><img src="./assets/index.jpg"></h1>
 <h1 >📚  Sobre</h1>
 <p> Landing page em desenvlvimento para amostra de exemplares dos filhotes do Canil Duke (MG)</p>
 <br>
